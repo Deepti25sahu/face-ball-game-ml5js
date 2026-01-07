@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ball Game with Live Video</title>
+<style>
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column; /* stack heading and canvas vertically */
+        justify-content: flex-start; /* start from top */
+        align-items: center;
+        height: 100vh;
+        background: #111;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        color: white;
+        margin: 20px 0 10px 0; /* top margin for spacing */
+        text-align: center;
+        font-size: 36px;
+        text-shadow: 2px 2px 5px black;
+    }
+    canvas {
+        border: 3px solid #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #fff;
+    }
+</style>
+</head>
+<body>
+
+<h1>FACE BALL GAME</h1>
+
+<!-- p5.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.dom.min.js"></script>
+
+<!-- ml5.js -->
+<script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+
+<!-- sketch -->
+<script src="sketch.js"></script>
+
+</body>
+</html>
